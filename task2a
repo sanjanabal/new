@@ -1,0 +1,9 @@
+2a query:
+select worksite,count(*) as total from h1b_final where job_title like "%DATA ENGINEER%" and year='2011' group by worksite order by total desc limit 5;
+select worksite,count(*) as total from h1b_final where job_title like "%DATA ENGINEER%" and year='2012' group by worksite order by total desc limit 5;
+select worksite,count(*) as total from h1b_final where job_title like "%DATA ENGINEER%" and year='2013' group by worksite order by total desc limit 5;
+select worksite,count(*) as total from h1b_final where job_title like "%DATA ENGINEER%" and year='2014' group by worksite order by total desc limit 5;
+select worksite,count(*) as total from h1b_final where job_title like "%DATA ENGINEER%" and year='2015' group by worksite order by total desc limit 5;
+select worksite,count(*) as total from h1b_final where job_title like "%DATA ENGINEER%" and year='2016' group by worksite order by total desc limit 5;
+
+
